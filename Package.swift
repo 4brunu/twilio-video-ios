@@ -11,6 +11,10 @@ let package = Package(
         .library(
             name: "TwilioVideo",
             targets: ["TwilioVideo"]),
+        .library(
+            name: "TwilioVideoDynamic",
+            type: .dynamic,
+            targets: ["TwilioVideo"])
     ],
     targets: [
         .binaryTarget(
